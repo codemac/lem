@@ -37,6 +37,7 @@
                (:file "interp")
                (:file "file")
                (:file "scala-mode")
-               (:file "completion"))
+               (:file "completion")
+               (:file "cli"))
   :perform (test-op (o c)
                     (symbol-call :rove :run c)))
